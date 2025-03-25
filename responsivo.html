@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: chocolate;
+        
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 100px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        main >h1 {
+            text-align: center;
+        }
+main > p {
+            text-align: justify;
+            text-indent: 20px;
+}
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, incidunt porro. Vero animi eius deleniti consequatur id nemo! Necessitatibus magni placeat nemo perferendis mollitia quisquam velit ipsum explicabo provident Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit iure error debitis quod velit in sit tenetur quisquam, nobis deleniti similique, quaerat accusamus consectetur, nesciunt facilis. Reiciendis provident beatae ea.</p>
+        <picture>
+            <source media="(max-width: 800px)" srcset="imagem/nova.png" alt="foto produto">
+            <img src="imagem/nova.png" alt="foto exemplo">
+        </picture>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium tempore perferendis maxime at. Doloribus praesentium modi facilis eius commodi accusantium illum deserunt, dolor aliquam quis inventore perspiciatis voluptatum, vero optio!</p>
+    </main>
+</body>
+</html>
